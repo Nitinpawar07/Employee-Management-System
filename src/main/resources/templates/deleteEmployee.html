@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Delete Employee</title>
+    <link rel="stylesheet" href="../static/adduserpage.css" th:href="@{css/adduserpage.css}">
+</head>
+
+<body>
+    <h1>Add Employee </h1>
+    <form action="/deleteEmp" method="get">
+
+        <label for="userId">Empoyee ID:</label>
+        <input type="text" id="userId" name="id" required>
+       
+        <input type="submit" value="Delete" name="submit"><br>
+        <i><a href="/index"> Back</a></i>
+    </form>
+</body>
+
+</html>
