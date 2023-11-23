@@ -8,8 +8,8 @@ This is protecting starter security you need to enter and login
 **User** : Nitin
 **Password** : 12345
 if you want change then go to application.properties file you can find below line
-   spring.security.user.name=username
-   spring.security.user.password=password
+spring.security.user.name=username
+spring.security.user.password=password
 
 
 
